@@ -58,7 +58,7 @@ export default function EmailCapture() {
         >
           ✨
         </motion.div>
-        <h3 className="text-lg font-semibold text-white mb-1">You're in!</h3>
+        <h3 className="text-lg font-semibold text-white mb-1">You&apos;re in!</h3>
         <p className="text-sm text-gray-300">
           Welcome to the multiverse. Check your email for next steps.
         </p>

@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 
 export async function POST(request: NextRequest) {
   try {
-    const { email, timestamp, source } = await request.json()
+    const { email, source } = await request.json()
     
     // Validate email
     if (!email || !email.includes('@')) {
